@@ -7,7 +7,7 @@ class Cliente {
 
 class ContaCorrente {
     agencia;
-    saldo;
+    _saldo = 0;
 
     sacar(valor) {
         if (this.saldo >= valor) {
