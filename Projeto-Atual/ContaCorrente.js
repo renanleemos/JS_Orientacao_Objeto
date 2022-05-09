@@ -1,6 +1,10 @@
 export class ContaCorrente {
+    cliente;
     agencia;
-    _saldo = 0;
+
+
+    _saldo = 0; //Underline antes da variável significa que o atributo é privado.
+    
 
     sacar(valor) {
         if (this.saldo >= valor) {

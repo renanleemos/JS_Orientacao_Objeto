@@ -17,6 +17,8 @@ cliente2.cpf = "88822233309";
 const contaCorrenteRenan = new ContaCorrente();
 contaCorrenteRenan.saldo = 0;
 contaCorrenteRenan.agencia = 1001;
+contaCorrenteRenan.cliente =  cliente1;
+
 contaCorrenteRenan.depositar(-100);
 contaCorrenteRenan.depositar(100);
 contaCorrenteRenan.depositar(100);
