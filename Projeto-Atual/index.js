@@ -20,11 +20,11 @@ contaCorrenteRenan.agencia = 1001;
 contaCorrenteRenan.cliente =  cliente1;
 contaCorrenteRenan.depositar(500);
 
-
-
 const conta2 = new ContaCorrente()
-    conta2.cliente = cliente2;
-    conta2.agencia = 102;
-    console.log(conta2);
+conta2.cliente = cliente2;
+conta2.agencia = 102;
 
 contaCorrenteRenan.transferir(200, conta2);
+
+console.log(conta2);
+console.log(contaCorrenteRenan);
