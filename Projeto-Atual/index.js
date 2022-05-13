@@ -21,13 +21,11 @@ contaCorrenteRenan.cliente =  cliente1;
 contaCorrenteRenan.depositar(500);
 
 const conta2 = new ContaCorrente()
-conta2.cliente = new Cliente();
-conta2.cliente.nome = "Kelly";
-conta2.cliente.cpf = "88822233309";
+conta2.cliente = cliente1;
 conta2.agencia = 102;
 
 let valor = 200;
 contaCorrenteRenan.transferir(valor, conta2);
 
-console.log("Valor: ", valor);
-console.log(conta2);
+conta2.saldo = 3;
+console.log(conta2.saldo);
